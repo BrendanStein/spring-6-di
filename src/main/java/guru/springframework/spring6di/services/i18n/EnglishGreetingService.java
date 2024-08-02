@@ -11,7 +11,8 @@ import org.springframework.stereotype.Service;
 @Service("i18NService")
 public class EnglishGreetingService implements GreetingService {
     @Override
-    public String sayGreeting() {
+    public String sayGreeting()
+    {
         return "Hello World - EN";
     }
 }

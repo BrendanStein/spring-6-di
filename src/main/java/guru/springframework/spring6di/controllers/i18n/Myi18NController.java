@@ -8,7 +8,8 @@ import org.springframework.stereotype.Controller;
  * Created by jt, Spring Framework Guru.
  */
 @Controller
-public class Myi18NController {
+public class Myi18NController
+{
 
     private final GreetingService greetingService;
 
@@ -16,7 +17,8 @@ public class Myi18NController {
         this.greetingService = greetingService;
     }
 
-    public String sayHello(){
+    public String sayHello()
+    {
         return greetingService.sayGreeting();
     }
 
