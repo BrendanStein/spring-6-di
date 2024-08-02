@@ -7,7 +7,7 @@ import org.springframework.test.context.ActiveProfiles;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@ActiveProfiles("dev")
+@ActiveProfiles({"prod","EN"})
 @SpringBootTest
 class EnvironmentControllerTest {
 
